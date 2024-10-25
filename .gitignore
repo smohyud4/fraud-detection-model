@@ -1,0 +1,47 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folder
+venv/
+.env/
+.venv/
+
+# Ignore Jupyter and IPython config files
+profile_default/
+ipython_config.py
+
+# Ignore environment and dependency files
+*.env
+*.DS_Store
+*.log
+
+# Ignore IDE-specific files (optional)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore specific data formats
+*.h5
+*.sqlite
+*.db
+*.parquet
+*.feather
